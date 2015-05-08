@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.salta3a.citizenguide.Fragments.MainSectionFragment">
+
+<ImageView
+    android:id="@+id/search_button_main"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/ic_search_black"/>
+    <EditText
+        android:selectAllOnFocus="false"
+        android:hint="@string/searchHint"
+        android:id="@+id/searchTXV"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/search_button_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/searchTXV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/department_gam_image"/>
+            <Button
+                android:id="@+id/departmentGAMBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/departmentGAMButton"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/department_ci_image"/>
+            <Button
+                android:id="@+id/departmentCiBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/departmentCIButton"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/department_lv_image"/>
+            <Button
+                android:id="@+id/departmentLVBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/departmentLVButton"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

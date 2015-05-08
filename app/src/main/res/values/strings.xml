@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">دليل المواطن</string>
+
+    <string name="title_section1">الصفحة الرئيسية</string>
+    <string name="title_section2">أرقام الدوائر  الحكومية</string>
+    <string name="title_section3">عنا</string>
+    <string name="title_section4">إتصل بنا</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">الإعدادات</string>
+
+    <string name="departmentGAMButton">أمانة عمان الكبرى</string>
+    <string name="departmentLVButton">ادارة السير المركزية</string>
+    <string name="departmentCIButton">دائرة الأحوال المدنية و الجوازات</string>
+
+
+    <string name="searchHint">أكتب هنا للبحث</string>
+
+    <string-array name="deptNames">
+        <item>مدير دائرة الأحوال</item>
+        <item>دائرة الأراضي و المساحة</item>
+        <item>طوارئ أمانة عمان</item>
+    </string-array>
+
+    <string-array name="deptNumbers">
+        <item>0096265636666</item>
+        <item>0096264632601</item>
+        <item>0096265359970</item>
+    </string-array>
+
+
+    <string name="GAMName">أمانة عمان الكبرى</string>
+    <string name="LVName">دائرة ترخيص السواقين والمركبات</string>
+    <string name="CIName">دائرة الأحوال المدنية و الجوازات</string>
+
+
+    <string name="GAMDes">المعلومات العامة هنا</string>
+    <string name="LVDes">المعلومات العامة هنا</string>
+    <string name="CIDes">المعلومات العامة هنا</string>
+    <!-- DeptActivity Dialogs -->
+    <string name="PLTitle">رخص المهن</string>
+    <string name="buildingTaxTitle">ضريبة الأبنية والمسقفات</string>
+    <string name="trafficViolationsTitle">مخالفات السير</string>
+    <string name="bidsTitle">العطاءات</string>
+    <string name="complaintTitle">تقديم شكوى</string>
+    <string name="recallSubmitTitle">تقديم إستدعاء</string>
+    <string name="issuingBirthTitle">إصدار شهادة ولادة </string>
+    <string name="issuingMarriageTitle">إصدار شهادة زواج</string>
+    <string name="issuingDivorceTitle">إصدار وثيقة طلاق</string>
+    <string name="ratificationDocumentsTitle">تصديق الوثائق</string>
+    <string name="issuingIDTitle">اصدار بطاقة شخصية</string>
+    <string name="issuingPassportTitle">اصدار جواز سفر</string>
+    <string name="issuingFamilyEnrollmentTitle">اصدار القيد العائلي</string>
+    <string name="permitsServices">خدمات التصاريح</string>
+    <string name="irregularitiesServices">المخالفات خدمات</string>
+    <string name="professionalLicensingServices">خدمات تراخيص المهن</string>
+    <string name="accidentServices">خدمات الحوادث</string>
+    <string name="tipperPermitTitle">تصريح سير قلاب</string>
+    <string name="concreteMixerPermitTitle">تصريح سير خلاطة باطون</string>
+    <string name="concretePumpPermitTitle">تصريح وقوف مضخة باطون / حفارة رافعة</string>
+    <string name="truckEntryPermitTitle">تصريح دخول شاحنة شوارع العاصمة</string>
+    <string name="tankPermitTitle">تصريح سير صهريج</string>
+    <string name="irregularitiesPaymentTitle">تسديد المخالفات </string>
+    <string name="reservedLicensesTitle">الرخص المحجوزة</string>
+    <string name="decodingReservedCarTitle">فك حجز السيارات المحجوزة</string>
+    <string name="objectTrafficIrregularitiesTitle">الاعتراض على المخالفات السير</string>
+    <string name="gasStationsDetectionTitle">الكشف على محطات المحروقات</string>
+    <string name="cafeShopDetectionTitle">الكشف على المقاهي</string>
+    <string name="weddingHallsDetectionTitle">الكشف على صالات الافراح</string>
+    <string name="drivingTrainingStationTitle">الكشف على مراكز تدريب السواقة</string>
+    <string name="getSchemeSketchTitle">الحصول على مخطط كروكي</string>
+    <string name="objectSchemeSketchTitle">الاعتراض على مخطط كروكي</string>
+    <string name="getReportForUnknownTitle">الحصول على تقرير ضد مجهول</string>
+    <string name="freeVehicleAccidentsTitle">شهادة خلو حوادث للمركبات</string>
+
+    <string name="DialogMessage">الرجاء قم بإختيار الحركة</string>
+    <string name="uploadForum">تحميل النموذج</string>
+    <string name="RequiredDocs">الوثائق المطلوبة</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_department">Department</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_general_message">GeneralMessageActivity</string>
+</resources>

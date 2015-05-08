@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/deptNumberCell">
+<TextView
+    android:id="@+id/deptName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:text="deptNameHere"
+    android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/deptNumber"
+        android:layout_below="@id/deptName"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00962795726678"/>
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_call_black"/>
+</RelativeLayout>

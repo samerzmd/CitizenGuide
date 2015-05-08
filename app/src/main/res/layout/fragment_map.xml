@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.salta3a.citizenguide.Fragments.MapFragment">
+
+    <com.mapbox.mapboxsdk.views.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        mapbox:mapid="samerzmd.m0jccnk0"
+        mapbox:accessToken="pk.eyJ1Ijoic2FtZXJ6bWQiLCJhIjoiUlZGVGN1dyJ9.zdSOLyNOViKVeA_Reh0zNQ"/>
+
+</FrameLayout>
