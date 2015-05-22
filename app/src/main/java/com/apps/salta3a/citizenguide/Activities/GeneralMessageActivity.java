@@ -15,7 +15,7 @@ public class GeneralMessageActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_general_message);
         String rawRes =getIntent().getStringExtra(messageReskEY);
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, GeneralMessageFragment.newInstance(rawRes)).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, GeneralMessageFragment.newInstance(rawRes,1)).commit();
     }
 
 

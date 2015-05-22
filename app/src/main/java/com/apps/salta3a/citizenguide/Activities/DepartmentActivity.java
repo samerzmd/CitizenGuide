@@ -149,6 +149,9 @@ public class DepartmentActivity extends ActionBarActivity implements ISimpleDial
     public void professionalLicensingServicesButtonClick(View v){
         gotoDeptActivity(6);
     }
+    public void tipperPermit(View v){
+        SimpleDialogFragment.createBuilder(this, getSupportFragmentManager()).setTitle(" ’—ÌÕ ﬁ·«»").setMessage(R.string.DialogMessage).setPositiveButtonText(R.string.uploadForum).setNegativeButtonText(R.string.RequiredDocs).setRequestCode(issuingFamilyEnrollmentClickCode).show();
+    }
     public void accidentServicesButtonClick(View v){
         gotoDeptActivity(7);
     }
@@ -194,7 +197,7 @@ public class DepartmentActivity extends ActionBarActivity implements ISimpleDial
 
                 break;
             case issuingFamilyEnrollmentClickCode:
-
+                new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 break;
             default:
 

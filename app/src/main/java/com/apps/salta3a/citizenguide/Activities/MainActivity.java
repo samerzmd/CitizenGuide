@@ -13,9 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
+import com.apps.salta3a.citizenguide.Fragments.CallUsFragment;
 import com.apps.salta3a.citizenguide.Fragments.GeneralMessageFragment;
 import com.apps.salta3a.citizenguide.Fragments.GovernmentDepartmentsNumbersFragment;
-import com.apps.salta3a.citizenguide.Fragments.MapFragment;
 import com.apps.salta3a.citizenguide.Fragments.NavigationDrawerFragment;
 import com.apps.salta3a.citizenguide.Fragments.MainSectionFragment;
 import com.apps.salta3a.citizenguide.R;
@@ -55,10 +55,13 @@ public class MainActivity extends ActionBarActivity
                 mFragment=GovernmentDepartmentsNumbersFragment.newInstance(position+1);
                 break;
             case 2:
-                mFragment= GeneralMessageFragment.newInstance("about_us.html");
+                mFragment= GeneralMessageFragment.newInstance("about_us.html",position+1);
+                break;
+            case 4:
+                mFragment= CallUsFragment.newInstance(position+1);
                 break;
             default:
-                mFragment=PlaceholderFragment.newInstance(position + 1);
+                mFragment= CallUsFragment.newInstance(4);
         }
         fragmentManager.beginTransaction()
                 .replace(R.id.container,mFragment )
@@ -147,7 +150,7 @@ public class MainActivity extends ActionBarActivity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_blank, container, false);
             return rootView;
         }
 

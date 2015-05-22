@@ -28,6 +28,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1">
+
         <LinearLayout
             android:id="@+id/GAMservicesContainer"
             android:visibility="gone"
@@ -164,7 +165,8 @@
                 android:id="@+id/tipperPermitButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tipperPermitTitle"/>
+                android:text="@string/tipperPermitTitle"
+                android:onClick="tipperPermit"/>
             <Button
                 android:id="@+id/concreteMixerPermitButton"
                 android:layout_width="wrap_content"

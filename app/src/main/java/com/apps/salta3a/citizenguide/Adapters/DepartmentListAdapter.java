@@ -15,9 +15,6 @@ import com.apps.salta3a.citizenguide.Activities.MainActivity;
 import com.apps.salta3a.citizenguide.Activities.MapActivity;
 import com.apps.salta3a.citizenguide.R;
 
-/**
- * Created by Samer on 01/05/2015.
- */
 public class DepartmentListAdapter extends BaseAdapter {
     Context mContext;
     String [] deptNumbers;
@@ -29,12 +26,16 @@ public class DepartmentListAdapter extends BaseAdapter {
         deptNames=context.getResources().getStringArray(R.array.deptNames);
         deptNumbers=context.getResources().getStringArray(R.array.deptNumbers);
         deptLoc=new double[deptNames.length][2];
+
         deptLoc[0][0]=31.9565778;
         deptLoc[0][1]=35.9456951;
+
         deptLoc[1][0]=31.9565778;
         deptLoc[1][1]=35.9456951;
+
         deptLoc[2][0]=31.9565778;
         deptLoc[2][1]=35.9456951;
+
     }
     @Override
     public int getCount() {

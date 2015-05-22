@@ -3,9 +3,6 @@ package com.apps.salta3a.citizenguide.Models;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by Samer on 01/05/2015.
- */
 public class Department implements Parcelable {
     public int id;
     public int nameRes;
