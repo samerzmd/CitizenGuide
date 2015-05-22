@@ -86,4 +86,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_general_message">GeneralMessageActivity</string>
+    <string name="aboutus" >طلاب جامعة فيلادلفيا</string>
+    <string name="title_activity_map">MapActivity</string>
 </resources>

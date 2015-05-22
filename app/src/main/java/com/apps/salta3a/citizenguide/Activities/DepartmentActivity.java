@@ -155,10 +155,10 @@ public class DepartmentActivity extends ActionBarActivity implements ISimpleDial
 
     @Override
     public void onPositiveButtonClicked(int i) {
-        String url="";
+        String url="http://79.134.150.46/1.pdf";
         switch (i){
             case professionsLicenseClickCode:
-
+                new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 break;
             case buildingsTaxClickCode:
 

@@ -19,9 +19,18 @@
         android:layout_height="wrap_content"
         android:text="00962795726678"/>
     <ImageView
+        android:id="@+id/callBtn"
         android:layout_alignParentLeft="true"
         android:layout_centerHorizontal="true"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/ic_call_black"/>
+    <ImageView
+        android:id="@+id/locationBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/callBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_action_location_found"/>
 </RelativeLayout>

@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
+import com.apps.salta3a.citizenguide.Fragments.GeneralMessageFragment;
 import com.apps.salta3a.citizenguide.Fragments.GovernmentDepartmentsNumbersFragment;
 import com.apps.salta3a.citizenguide.Fragments.MapFragment;
 import com.apps.salta3a.citizenguide.Fragments.NavigationDrawerFragment;
@@ -54,7 +55,7 @@ public class MainActivity extends ActionBarActivity
                 mFragment=GovernmentDepartmentsNumbersFragment.newInstance(position+1);
                 break;
             case 2:
-                mFragment=new MapFragment();
+                mFragment= GeneralMessageFragment.newInstance("about_us.html");
                 break;
             default:
                 mFragment=PlaceholderFragment.newInstance(position + 1);
